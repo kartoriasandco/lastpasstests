@@ -1,0 +1,15 @@
+{
+    "selectors": {
+        "buttonUsePasswordGenerator": ".cta-block__buttons > :nth-child(2) > .lp-button",
+		"buttonGeneratePassword": ".lp-pg-generated-password__icon-generate",
+		"textFieldPasswordLength": "#lp-pg-password-length",
+		"textFieldPasswordValue": "input[id=\"GENERATED-PASSWORD\"]",
+		"radioButtonEasilySaid": ".lp-pg-settings__radio-wrap > :nth-child(1) > .lp-radio__label",
+		"radioButtonEasilyRead": ".lp-pg-settings__radio-wrap > :nth-child(2) > .lp-radio__label",
+		"radioButtonAllCharacters": ".lp-pg-settings__radio-wrap > :nth-child(3) > .lp-radio__label",
+		"checkboxUppercase": ".lp-pg-settings__checkbox-wrap > :nth-child(1) > .lp-checkbox__label",
+		"checkboxLowercase": ".lp-pg-settings__checkbox-wrap > :nth-child(2) > .lp-checkbox__label",
+		"checkboxNumbers": ".lp-pg-settings__checkbox-wrap > :nth-child(3) > .lp-checkbox__label",
+		"checkboxSymbols": ".lp-pg-settings__checkbox-wrap > :nth-child(4) > .lp-checkbox__label"
+    }
+}

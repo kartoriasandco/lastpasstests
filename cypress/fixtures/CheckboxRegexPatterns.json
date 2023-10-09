@@ -1,0 +1,19 @@
+{
+	"regexPatterns" : {
+		"all": "^(?=.*[a-z]+)(?=.*[A-Z]+)(?=.*[0-9]+)(?=.*[^a-zA-Z0-9]+)",
+		"noUppercase": "^(?=.*[a-z]+)(?!.*[A-Z]+)(?=.*[0-9]+)(?=.*[^a-zA-Z0-9]+)",
+		"noLowercase": "^(?!.*[a-z]+)(?=.*[A-Z]+)(?=.*[0-9]+)(?=.*[^a-zA-Z0-9]+)",
+		"noNumbers": "^(?=.*[a-z]+)(?=.*[A-Z]+)(?!.*[0-9]+)(?=.*[^a-zA-Z0-9]+)",
+		"noSymbols": "^(?=.*[a-z]+)(?=.*[A-Z]+)(?=.*[0-9]+)(?!.*[^a-zA-Z0-9]+)",
+		"uppercaseOnly": "^[A-Z]+$",
+		"lowercaseOnly": "^[a-z]+$",
+		"numbersOnly": "^[0-9]+$",
+		"symbolsOnly": "^[^a-zA-Z0-9]+$",
+		"uppercaseAndLowercase": "^(?=.*[a-z]+)(?=.*[A-Z]+)(?!.*[0-9]+)(?!.*[^a-zA-Z0-9]+)",
+		"uppercaseAndNumbers": "^(?!.*[a-z]+)(?=.*[A-Z]+)(?=.*[0-9]+)(?!.*[^a-zA-Z0-9]+)",
+		"uppercaseAndSymbols": "^(?!.*[a-z]+)(?=.*[A-Z]+)(?!.*[0-9]+)(?=.*[^a-zA-Z0-9]+)",
+		"lowercaseAndSymbols": "^(?=.*[a-z]+)(?!.*[A-Z0-9]+)(?=.*[^a-zA-Z0-9]+)",
+		"lowercaseAndNumbers": "^(?=.*[a-z]+)(?!.*[A-Z]+)(?=.*[0-9]+)(?!.*[^a-zA-Z0-9]+)",
+		"numbersAndSymbols": "^(?!.*[a-zA-Z]+)(?=.*[0-9]+)(?=.*[^a-zA-Z0-9]+)"
+	}
+}
